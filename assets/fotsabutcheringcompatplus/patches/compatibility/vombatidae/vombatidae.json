@@ -1,0 +1,75 @@
+[
+    {
+		"op": "replace",
+		"path": "/enabled",
+		"value": true,
+		"file": "fotsabutcheringcompatplus:itemtypes/butchercreatures/vombatidae/vombatidae.json",
+		"dependsOn": [ { "modid": "vombatidae" } ]
+	},
+    {
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": {
+            "code": "butcherable",
+            "itemByType": {
+                "*-adult-female-*": "fotsabutcheringcompatplus:deadvombatidae-female-1-dead",
+                "*-adult-male-*": "fotsabutcheringcompatplus:deadvombatidae-male-1-dead"
+            }
+        },
+        "file": "vombatidae:entities/land/vombatidae-adult.json",
+        "dependsOn": [
+            {
+                "modid": "vombatidae"
+            }
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/client/behaviors/-",
+        "value": {
+            "code": "butcherable",
+            "itemByType": {
+                "*-adult-female-*": "fotsabutcheringcompatplus:deadvombatidae-female-1-dead",
+                "*-adult-male-*": "fotsabutcheringcompatplus:deadvombatidae-male-1-dead"
+            }
+        },
+        "file": "vombatidae:entities/land/vombatidae-adult.json",
+        "dependsOn": [
+            {
+                "modid": "vombatidae"
+            }
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": {
+            "code": "butcherable",
+            "itemByType": {
+                "*-baby-*": "fotsabutcheringcompatplus:deadvombatidae-baby-1-dead"
+            }
+        },
+        "file": "vombatidae:entities/land/vombatidae-baby.json",
+        "dependsOn": [
+            {
+                "modid": "vombatidae"
+            }
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/client/behaviors/-",
+        "value": {
+            "code": "butcherable",
+            "itemByType": {
+                "*-baby-*": "fotsabutcheringcompatplus:deadvombatidae-baby-1-dead"
+            }
+        },
+        "file": "vombatidae:entities/land/vombatidae-baby.json",
+        "dependsOn": [
+            {
+                "modid": "vombatidae"
+            }
+        ]
+    }
+]

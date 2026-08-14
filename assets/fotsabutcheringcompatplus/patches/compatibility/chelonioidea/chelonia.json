@@ -1,0 +1,75 @@
+[
+    {
+		"op": "replace",
+		"path": "/enabled",
+		"value": true,
+		"file": "fotsabutcheringcompatplus:itemtypes/butchercreatures/chelonioidea/chelonioidea.json",
+		"dependsOn": [ { "modid": "chelonioidea" } ]
+	},
+    {
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": {
+            "code": "butcherable",
+            "itemByType": {
+                "*-adult-female-*": "fotsabutcheringcompatplus:deadchelonioidea-female-1-dead",
+                "*-adult-male-*": "fotsabutcheringcompatplus:deadchelonioidea-male-1-dead"
+            }
+        },
+        "file": "chelonioidea:entities/water/chelonioidea-adult.json",
+        "dependsOn": [
+            {
+                "modid": "chelonioidea"
+            }
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/client/behaviors/-",
+        "value": {
+            "code": "butcherable",
+            "itemByType": {
+                "*-adult-female-*": "fotsabutcheringcompatplus:deadchelonioidea-female-1-dead",
+                "*-adult-male-*": "fotsabutcheringcompatplus:deadchelonioidea-male-1-dead"
+            }
+        },
+        "file": "chelonioidea:entities/water/chelonioidea-adult.json",
+        "dependsOn": [
+            {
+                "modid": "chelonioidea"
+            }
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": {
+            "code": "butcherable",
+            "itemByType": {
+                "*-baby-*": "fotsabutcheringcompatplus:deadchelonioidea-baby-1-dead"
+            }
+        },
+        "file": "chelonioidea:entities/water/chelonioidea-baby.json",
+        "dependsOn": [
+            {
+                "modid": "chelonioidea"
+            }
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/client/behaviors/-",
+        "value": {
+            "code": "butcherable",
+            "itemByType": {
+                "*-baby-*": "fotsabutcheringcompatplus:deadchelonioidea-baby-1-dead"
+            }
+        },
+        "file": "chelonioidea:entities/water/chelonioidea-baby.json",
+        "dependsOn": [
+            {
+                "modid": "chelonioidea"
+            }
+        ]
+    }
+]

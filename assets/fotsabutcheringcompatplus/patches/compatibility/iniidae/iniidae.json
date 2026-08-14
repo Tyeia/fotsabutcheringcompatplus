@@ -1,0 +1,75 @@
+[
+    {
+		"op": "replace",
+		"path": "/enabled",
+		"value": true,
+		"file": "fotsabutcheringcompatplus:itemtypes/butchercreatures/iniidae/iniidae.json",
+		"dependsOn": [ { "modid": "iniidae" } ]
+	},
+    {
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": {
+            "code": "butcherable",
+            "itemByType": {
+                "*-adult-female-*": "fotsabutcheringcompatplus:deadiniidae-female-1-dead",
+                "*-adult-male-*": "fotsabutcheringcompatplus:deadiniidae-male-1-dead"
+            }
+        },
+        "file": "iniidae:entities/water/iniidae-adult.json",
+        "dependsOn": [
+            {
+                "modid": "iniidae"
+            }
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/client/behaviors/-",
+        "value": {
+            "code": "butcherable",
+            "itemByType": {
+                "*-adult-female-*": "fotsabutcheringcompatplus:deadiniidae-female-1-dead",
+                "*-adult-male-*": "fotsabutcheringcompatplus:deadiniidae-male-1-dead"
+            }
+        },
+        "file": "iniidae:entities/water/iniidae-adult.json",
+        "dependsOn": [
+            {
+                "modid": "iniidae"
+            }
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": {
+            "code": "butcherable",
+            "itemByType": {
+                "*-baby-*": "fotsabutcheringcompatplus:deadiniidae-baby-1-dead"
+            }
+        },
+        "file": "iniidae:entities/water/iniidae-baby.json",
+        "dependsOn": [
+            {
+                "modid": "iniidae"
+            }
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/client/behaviors/-",
+        "value": {
+            "code": "butcherable",
+            "itemByType": {
+                "*-baby-*": "fotsabutcheringcompatplus:deadiniidae-baby-1-dead"
+            }
+        },
+        "file": "iniidae:entities/water/iniidae-baby.json",
+        "dependsOn": [
+            {
+                "modid": "iniidae"
+            }
+        ]
+    }
+]

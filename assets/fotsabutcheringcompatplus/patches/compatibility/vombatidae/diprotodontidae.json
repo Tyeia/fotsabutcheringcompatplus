@@ -1,0 +1,75 @@
+[
+    {
+		"op": "replace",
+		"path": "/enabled",
+		"value": true,
+		"file": "fotsabutcheringcompatplus:itemtypes/butchercreatures/vombatidae/diprotodontidae.json",
+		"dependsOn": [ { "modid": "vombatidae" } ]
+	},
+    {
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": {
+            "code": "butcherable",
+            "itemByType": {
+                "*-adult-female-*": "fotsabutcheringcompatplus:deaddiprotodontidae-female-1-dead",
+                "*-adult-male-*": "fotsabutcheringcompatplus:deaddiprotodontidae-male-1-dead"
+            }
+        },
+        "file": "vombatidae:entities/land/diprotodontidae-adult.json",
+        "dependsOn": [
+            {
+                "modid": "vombatidae"
+            }
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/client/behaviors/-",
+        "value": {
+            "code": "butcherable",
+            "itemByType": {
+                "*-adult-female-*": "fotsabutcheringcompatplus:deaddiprotodontidae-female-1-dead",
+                "*-adult-male-*": "fotsabutcheringcompatplus:deaddiprotodontidae-male-1-dead"
+            }
+        },
+        "file": "vombatidae:entities/land/diprotodontidae-adult.json",
+        "dependsOn": [
+            {
+                "modid": "vombatidae"
+            }
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": {
+            "code": "butcherable",
+            "itemByType": {
+                "*-baby-*": "fotsabutcheringcompatplus:deaddiprotodontidae-baby-1-dead"
+            }
+        },
+        "file": "vombatidae:entities/land/diprotodontidae-baby.json",
+        "dependsOn": [
+            {
+                "modid": "vombatidae"
+            }
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/client/behaviors/-",
+        "value": {
+            "code": "butcherable",
+            "itemByType": {
+                "*-baby-*": "fotsabutcheringcompatplus:deaddiprotodontidae-baby-1-dead"
+            }
+        },
+        "file": "vombatidae:entities/land/diprotodontidae-baby.json",
+        "dependsOn": [
+            {
+                "modid": "vombatidae"
+            }
+        ]
+    }
+]

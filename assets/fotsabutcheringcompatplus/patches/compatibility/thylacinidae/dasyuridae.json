@@ -1,0 +1,75 @@
+[
+    {
+		"op": "replace",
+		"path": "/enabled",
+		"value": true,
+		"file": "fotsabutcheringcompatplus:itemtypes/butchercreatures/thylacinidae/dasyuridae.json",
+		"dependsOn": [ { "modid": "thylacinidae" } ]
+	},
+    {
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": {
+            "code": "butcherable",
+            "itemByType": {
+                "*-adult-female-*": "fotsabutcheringcompatplus:deaddasyuridae-female-1-dead",
+                "*-adult-male-*": "fotsabutcheringcompatplus:deaddasyuridae-male-1-dead"
+            }
+        },
+        "file": "thylacinidae:entities/land/dasyuridae-adult.json",
+        "dependsOn": [
+            {
+                "modid": "thylacinidae"
+            }
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/client/behaviors/-",
+        "value": {
+            "code": "butcherable",
+            "itemByType": {
+                "*-adult-female-*": "fotsabutcheringcompatplus:deaddasyuridae-female-1-dead",
+                "*-adult-male-*": "fotsabutcheringcompatplus:deaddasyuridae-male-1-dead"
+            }
+        },
+        "file": "thylacinidae:entities/land/dasyuridae-adult.json",
+        "dependsOn": [
+            {
+                "modid": "thylacinidae"
+            }
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/server/behaviors/-",
+        "value": {
+            "code": "butcherable",
+            "itemByType": {
+                "*-baby-*": "fotsabutcheringcompatplus:deaddasyuridae-baby-1-dead"
+            }
+        },
+        "file": "thylacinidae:entities/land/dasyuridae-baby.json",
+        "dependsOn": [
+            {
+                "modid": "thylacinidae"
+            }
+        ]
+    },
+    {
+        "op": "add",
+        "path": "/client/behaviors/-",
+        "value": {
+            "code": "butcherable",
+            "itemByType": {
+                "*-baby-*": "fotsabutcheringcompatplus:deaddasyuridae-baby-1-dead"
+            }
+        },
+        "file": "thylacinidae:entities/land/dasyuridae-baby.json",
+        "dependsOn": [
+            {
+                "modid": "thylacinidae"
+            }
+        ]
+    }
+]

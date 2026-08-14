@@ -1,7 +1,7 @@
 {
   "type": "content",
   "modId": "fotsabutcheringcompatplus",
-  "name": "Butchering FOTSA Compat Plus",
+  "name": "Butchering FotSA Compat Plus",
   "authors": ["Tyeia"],
   "description": "Butchering compatibility for Fauna of the Stone Age mods (cervini, chelonioidea, iniidae, meiolandiidae, dasyuridae, nandiniidae, viverridae, diprotodontidae, thylacoleonidae, vombatidae).",
   "version": "0.1.0",

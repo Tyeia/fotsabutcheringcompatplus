@@ -19,32 +19,32 @@
 	"maxstacksize": 1,
 	"behaviors": [],
 	"texturesByType": {
-		"deadchelonioidea-male-1-dead": { "meat": { "base": "butchering:item/butchercreatures/animalpoultrymeatbloody" } },
-		"deadchelonioidea-female-1-dead": { "meat": { "base": "butchering:item/butchercreatures/animalpoultrymeatbloody" } },
-		"deadchelonioidea-baby-1-dead": { "meat": { "base": "butchering:item/butchercreatures/animalpoultrymeatbloody" } },
+		"deadchelonioidea-male-1-dead": { "meat": { "base": "butchering:item/butchercreatures/animalbushmeatbloody" } },
+		"deadchelonioidea-female-1-dead": { "meat": { "base": "butchering:item/butchercreatures/animalbushmeatbloody" } },
+		"deadchelonioidea-baby-1-dead": { "meat": { "base": "butchering:item/butchercreatures/animalbushmeatbloody" } },
 		"deadchelonioidea-male-1-skinned": {
-			"fur": { "base": "butchering:item/butchercreatures/animalpoultrymeatbloody" },
-			"meat": { "base": "butchering:item/butchercreatures/animalpoultrymeatbloody" }
+			"fur": { "base": "butchering:item/butchercreatures/animalbushmeatbloody" },
+			"meat": { "base": "butchering:item/butchercreatures/animalbushmeatbloody" }
 		},
 		"deadchelonioidea-female-1-skinned": {
-			"fur": { "base": "butchering:item/butchercreatures/animalpoultrymeatbloody" },
-			"meat": { "base": "butchering:item/butchercreatures/animalpoultrymeatbloody" }
+			"fur": { "base": "butchering:item/butchercreatures/animalbushmeatbloody" },
+			"meat": { "base": "butchering:item/butchercreatures/animalbushmeatbloody" }
 		},
 		"deadchelonioidea-baby-1-skinned": {
-			"fur": { "base": "butchering:item/butchercreatures/animalpoultrymeatbloody" },
-			"meat": { "base": "butchering:item/butchercreatures/animalpoultrymeatbloody" }
+			"fur": { "base": "butchering:item/butchercreatures/animalbushmeatbloody" },
+			"meat": { "base": "butchering:item/butchercreatures/animalbushmeatbloody" }
 		},
 		"deadchelonioidea-male-1-bledout": {
-			"fur": { "base": "butchering:item/butchercreatures/animalpoultrymeatbledout" },
-			"meat": { "base": "butchering:item/butchercreatures/animalpoultrymeatbledout" }
+			"fur": { "base": "butchering:item/butchercreatures/animalbushmeatbledout" },
+			"meat": { "base": "butchering:item/butchercreatures/animalbushmeatbledout" }
 		},
 		"deadchelonioidea-female-1-bledout": {
-			"fur": { "base": "butchering:item/butchercreatures/animalpoultrymeatbledout" },
-			"meat": { "base": "butchering:item/butchercreatures/animalpoultrymeatbledout" }
+			"fur": { "base": "butchering:item/butchercreatures/animalbushmeatbledout" },
+			"meat": { "base": "butchering:item/butchercreatures/animalbushmeatbledout" }
 		},
 		"deadchelonioidea-baby-1-bledout": {
-			"fur": { "base": "butchering:item/butchercreatures/animalpoultrymeatbledout" },
-			"meat": { "base": "butchering:item/butchercreatures/animalpoultrymeatbledout" }
+			"fur": { "base": "butchering:item/butchercreatures/animalbushmeatbledout" },
+			"meat": { "base": "butchering:item/butchercreatures/animalbushmeatbledout" }
 		},
 		"deadchelonioidea-male-1-rotten": {
 			"fur": { "base": "game:block/creature/rot/rot" },

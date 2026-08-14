@@ -19,32 +19,32 @@
 	"maxstacksize": 1,
 	"behaviors": [],
 	"texturesByType": {
-		"deadmeiolaniidae-male-1-dead": { "meat": { "base": "butchering:item/butchercreatures/animalpoultrymeatbloody" } },
-		"deadmeiolaniidae-female-1-dead": { "meat": { "base": "butchering:item/butchercreatures/animalpoultrymeatbloody" } },
-		"deadmeiolaniidae-baby-1-dead": { "meat": { "base": "butchering:item/butchercreatures/animalpoultrymeatbloody" } },
+		"deadmeiolaniidae-male-1-dead": { "meat": { "base": "butchering:item/butchercreatures/animalredmeatbloody" } },
+		"deadmeiolaniidae-female-1-dead": { "meat": { "base": "butchering:item/butchercreatures/animalredmeatbloody" } },
+		"deadmeiolaniidae-baby-1-dead": { "meat": { "base": "butchering:item/butchercreatures/animalredmeatbloody" } },
 		"deadmeiolaniidae-male-1-skinned": {
-			"fur": { "base": "butchering:item/butchercreatures/animalpoultrymeatbloody" },
-			"meat": { "base": "butchering:item/butchercreatures/animalpoultrymeatbloody" }
+			"fur": { "base": "butchering:item/butchercreatures/animalredmeatbloody" },
+			"meat": { "base": "butchering:item/butchercreatures/animalredmeatbloody" }
 		},
 		"deadmeiolaniidae-female-1-skinned": {
-			"fur": { "base": "butchering:item/butchercreatures/animalpoultrymeatbloody" },
-			"meat": { "base": "butchering:item/butchercreatures/animalpoultrymeatbloody" }
+			"fur": { "base": "butchering:item/butchercreatures/animalredmeatbloody" },
+			"meat": { "base": "butchering:item/butchercreatures/animalredmeatbloody" }
 		},
 		"deadmeiolaniidae-baby-1-skinned": {
-			"fur": { "base": "butchering:item/butchercreatures/animalpoultrymeatbloody" },
-			"meat": { "base": "butchering:item/butchercreatures/animalpoultrymeatbloody" }
+			"fur": { "base": "butchering:item/butchercreatures/animalredmeatbloody" },
+			"meat": { "base": "butchering:item/butchercreatures/animalredmeatbloody" }
 		},
 		"deadmeiolaniidae-male-1-bledout": {
-			"fur": { "base": "butchering:item/butchercreatures/animalpoultrymeatbledout" },
-			"meat": { "base": "butchering:item/butchercreatures/animalpoultrymeatbledout" }
+			"fur": { "base": "butchering:item/butchercreatures/animalredmeatbledout" },
+			"meat": { "base": "butchering:item/butchercreatures/animalredmeatbledout" }
 		},
 		"deadmeiolaniidae-female-1-bledout": {
-			"fur": { "base": "butchering:item/butchercreatures/animalpoultrymeatbledout" },
-			"meat": { "base": "butchering:item/butchercreatures/animalpoultrymeatbledout" }
+			"fur": { "base": "butchering:item/butchercreatures/animalredmeatbledout" },
+			"meat": { "base": "butchering:item/butchercreatures/animalredmeatbledout" }
 		},
 		"deadmeiolaniidae-baby-1-bledout": {
-			"fur": { "base": "butchering:item/butchercreatures/animalpoultrymeatbledout" },
-			"meat": { "base": "butchering:item/butchercreatures/animalpoultrymeatbledout" }
+			"fur": { "base": "butchering:item/butchercreatures/animalredmeatbledout" },
+			"meat": { "base": "butchering:item/butchercreatures/animalredmeatbledout" }
 		},
 		"deadmeiolaniidae-male-1-rotten": {
 			"fur": { "base": "game:block/creature/rot/rot" },
